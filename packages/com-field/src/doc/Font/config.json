@@ -1,0 +1,7 @@
+{
+    "font": {
+        "name": "字体组件",
+        "type": "font",
+        "components": ["fontFamily", "fontWeight", "color", "fontSize"]
+    }
+}

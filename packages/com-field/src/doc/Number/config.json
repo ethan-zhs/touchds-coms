@@ -1,0 +1,39 @@
+{
+    "number": {
+        "name": "计数器",
+        "type": "number",
+        "default": 3,
+        "step": 2,
+        "min": -3,
+        "max": 15
+    },
+    "opacity": {
+        "name": "透明度",
+        "type": "number",
+        "default": 1,
+        "step": 0.05,
+        "min": 0,
+        "max": 1,
+        "showRange": true
+    },
+    "top": {
+        "name": "左边距",
+        "type": "number",
+        "default": 1,
+        "step": 0.05,
+        "min": 0,
+        "max": 1,
+        "prefix": "左",
+        "suffix": "px"
+    },
+    "stepper": {
+        "name": "计步器",
+        "type": "number",
+        "default": 3,
+        "step": 2,
+        "min": -3,
+        "max": 15,
+        "showRange": true,
+        "showRangeText": true
+    }
+}

@@ -1,0 +1,79 @@
+.header {
+    background: #191c1a;
+    color: #fff;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    
+    .version {
+        color: rgb(100, 114, 121);
+        font-size:12px;
+    }
+    .update {
+        margin-left: 5px;
+        color: #2483ff;
+        cursor: pointer;
+        font-size:12px;
+    }
+
+    .save-btn,
+    .publish-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        border-radius: 0;
+        height: 28px;
+        border: 1px solid #2483ff;
+        cursor: pointer;
+        outline: none;
+        padding: 0 15px;
+        transition: background, color .2s;
+
+        svg {
+            fill: #fff;
+            margin-right: 7px;
+            transform: rotate(0deg);
+            animation: tooltip-fadein .8s linear infinite;
+
+            @keyframes tooltip-fadein {
+                0% {
+                    transform: rotate(0deg);
+                }
+            
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        &.disable {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    }
+
+    
+
+    .save-btn {
+        background: transparent;
+        color: #2483ff;
+        &:hover {
+            background: #2483ff;
+            border-color: #2483ff;
+            color: #fff;
+        }
+    }
+
+    .publish-btn {
+        background: #2483ff;
+        color: #fff;
+
+        &:hover {
+            border-color: #409fff;
+            background: #409fff;
+        }
+    }
+}

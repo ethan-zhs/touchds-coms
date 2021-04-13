@@ -1,0 +1,86 @@
+@import '../../assets/styles/theme.less';
+
+.field-number {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    .field-number-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+
+        .field-number-slider-text {
+            color: #a1aeb3;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 12px;
+            margin-top: -5px;
+            margin-bottom: 5px;
+            line-height: 11px;
+        }
+
+        .input-range {
+            cursor: pointer;
+            height: 2px;
+            width: 92px;
+            -webkit-appearance: none;
+            box-sizing: border-box;
+            outline: 0;
+            display: inline-block;
+        
+            &::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                background: #00a0ff;
+                width: 10px;
+                height: 10px;
+                border: 2px solid #fff;
+            }
+        }
+    }    
+
+    .number-field {
+        display: flex;
+        height: 24px;
+        background: #262c33;
+    
+        .number-field-button {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 20px;
+            position: relative;
+            border: 1px solid #0b0c0d;
+            border-left: 0;
+    
+            span {
+                border: 1px solid transparent;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                line-height: 7px;
+                color: #a1aeb3;
+                font-size: 12px;
+                cursor: pointer;
+                transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+    
+                &.minus-btn {
+                    border-top: 1px solid #0b0c0d;
+                }
+    
+                &:hover {
+                    border: 1px solid @theme-color;
+                }
+            }
+        }
+    }
+}
+
+

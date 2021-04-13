@@ -1,0 +1,21 @@
+{
+  "name": "@touchds/com-utils",
+  "version": "0.2.21",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.31.66:4873"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "execa": "^4.0.2",
+    "fs-extra": "^9.0.0",
+    "ora": "^4.0.4",
+    "semver": "^7.3.2"
+  }
+}

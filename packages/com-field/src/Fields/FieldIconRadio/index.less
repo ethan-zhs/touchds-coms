@@ -1,0 +1,49 @@
+.field-icon-radio {
+    display: flex;
+    width: 100%;
+
+    .field-icon-radio-item {
+        border: 1px solid #0b0c0d;
+        transition: background 0.3s;
+        background: #272c32;
+        overflow: hidden;
+        color: #a1aeb3;
+        font-size: 12px;
+        height: 24px;
+        margin-right: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        .icon-font {
+            font-size: 11px;
+        }
+
+        .field-icon-radio-image {
+            max-height: 100%;
+            max-width: 100%;
+            flex: 1 1 auto;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+
+        &:hover {
+            color: #fff;
+            background: #2483ff;
+        }
+
+        &.field-icon-radio-active {
+            color: #fff;
+            background: #2483ff;
+        }
+
+        &.field-icon-radio-evenly-split {
+            flex: 1;
+        }
+    }
+}

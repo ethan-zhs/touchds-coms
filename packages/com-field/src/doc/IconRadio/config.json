@@ -1,0 +1,27 @@
+{
+    "iconRadio": {
+        "name": "图标Radio",
+        "type": "iconRadio",
+        "default": "left",
+        "evenlySplit": true,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png",
+                "icon": "link"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png",
+                "icon": "link-gui"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐",
+                "icon": "link-gui"
+            }
+        ]
+    }
+}

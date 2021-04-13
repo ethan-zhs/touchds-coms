@@ -1,0 +1,104 @@
+@import '../../assets/styles/theme.less';
+
+
+.field-select {
+    position: relative;
+    font-size: 12px;  
+    width: 100%;
+        
+    .field-select-text {
+        height: 24px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;       
+        color: #ffffff;
+        outline: none;
+        box-shadow: none;
+        padding: 0 7px;
+        background: #262c33;
+        border: 1px solid #0b0c0d;
+        cursor: pointer;
+        .theme-box-hover;
+
+        .field-select-value {
+            flex: 1;
+            display: block;
+        }
+
+        .field-select-placeholder {
+            flex: 1;
+            display: block;
+            color: #a1aeb3;
+        }
+
+        .field-select-input {
+            flex: 1;
+            height: 100%;
+            width: 100%;
+            display: block;
+            border: none;            
+            background: transparent;
+            color: #fff;
+        }
+
+        .icon-select {
+            font-size: 10px;
+            color: #bcc9d4;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+    }
+
+    .field-select-list {
+        position: absolute;
+        top: calc(100% + 6px);
+        background: #101417;
+        border: 1px solid #2483ff;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        max-height: 180px;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        &.field-select-list-top {
+            top: inherit;
+            bottom: calc(100% + 6px);
+        }
+
+        .field-select-option {
+            height: 26px;
+            padding: 0 7px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            border-left: 2px solid transparent;
+            position: relative;
+            padding-left: 14px;
+            color: #bcc9d4;
+            cursor: pointer;
+
+            &.field-selected {
+                &::before {
+                    content: '';
+                    width: 3px;
+                    height: 3px;
+                    position: absolute;
+                    background: #2483ff;
+                    left: 5px;
+                }
+            }
+
+            &.field-nodata {
+                color: #555555
+            }
+
+            &:hover {
+                background: #043164;
+                border-left: 2px solid #2483ff;
+            }
+        }
+    }
+}

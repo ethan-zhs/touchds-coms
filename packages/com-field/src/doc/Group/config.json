@@ -1,0 +1,22 @@
+{
+    "baseProps": {
+        "name": "基础属性",
+        "type": "group",
+        "childrens": {
+            "baseProps1": {
+                "name": "基础属性1",
+                "type": "group",
+                "childrens": {
+                    "comAlias": {
+                        "name": "组件名称",
+                        "type": "text"
+                    },
+                    "comSize": {
+                        "name": "组件大小",
+                        "type": "size"
+                    }
+                }
+            }
+        }
+    }
+}

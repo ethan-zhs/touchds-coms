@@ -1,0 +1,45 @@
+{
+    "buttonRadio": {
+        "name": "对齐方式",
+        "type": "buttonRadio",
+        "default": "left",
+        "evenlySplit": false,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "center",
+                "name": "居中对齐"
+            },
+            {
+                "value": "right",
+                "name": "右对齐"
+            }
+        ]
+    },
+    "autoWidth": {
+        "name": "不等宽",
+        "type": "buttonRadio",
+        "default": "left",
+        "evenlySplit": false,
+        "options": [
+            {
+                "value": "left",
+                "name": "left",
+                "col": 3
+            },
+            {
+                "value": "center",
+                "name": "center",
+                "col": 6
+            },
+            {
+                "value": "right",
+                "name": "right",
+                "col": 4
+            }
+        ]
+    }
+}

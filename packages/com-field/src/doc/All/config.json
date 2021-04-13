@@ -1,0 +1,249 @@
+{
+    "baseProps": {
+        "name": "基础属性",
+        "type": "group",
+        "childrens": {
+            "baseProps1": {
+                "name": "基础属性1",
+                "type": "group",
+                "childrens": {
+                    "comAlias": {
+                        "name": "组件名称",
+                        "type": "text"
+                    },
+                    "comSize": {
+                        "name": "组件大小",
+                        "type": "size"
+                    }
+                }
+            }
+        }
+    },
+    "fontFamily": {
+        "name": "组件类型",
+        "type": "select",
+        "default": "Microsoft Yahei",
+        "placeholder": "请选择字体",
+        "showSearch": true,
+        "options": [
+            {
+                "value": "Microsoft Yahei",
+                "name": "微软雅黑"
+            },
+            {
+                "value": "SimSun",
+                "name": "宋体"
+            },
+            {
+                "value": "SimHei",
+                "name": "黑体"
+            },
+            {
+                "value": "LiSu",
+                "name": "隶书"
+            },
+            {
+                "value": "YouYuan",
+                "name": "幼圆"
+            }
+        ]
+    },
+    "icon": {
+        "name": "图标",
+        "type": "image",
+        "default": "http://img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+    },
+    "version": {
+        "name": "版本",
+        "type": "text",
+        "default": "1.0.1"
+    },
+    "buttonRadio": {
+        "name": "对齐方式",
+        "type": "buttonRadio",
+        "default": "left",
+        "evenlySplit": false,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    },
+    "iconRadio": {
+        "name": "图标Radio",
+        "type": "iconRadio",
+        "default": "left",
+        "evenlySplit": true,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png",
+                "icon": "link"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png",
+                "icon": "link-gui"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐",
+                "icon": "link-gui"
+            }
+        ]
+    },
+    "switch": {
+        "name": "开关",
+        "type": "switch",
+        "default": true,
+        "showText": true,
+        "switchText": {
+            "open": "开",
+            "close": "关"
+        }
+    },
+    "radio": {
+        "name": "单选框",
+        "type": "radio",
+        "default": "left",
+        "optionCol": 80,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    },
+    "checkbox": {
+        "name": "复选框",
+        "type": "checkbox",
+        "default": ["left"],
+        "optionCol": 80,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    },
+    "stepper": {
+        "name": "计步器",
+        "type": "number",
+        "default": 3,
+        "step": 2,
+        "min": -3,
+        "max": 15,
+        "showRange": true,
+        "showRangeText": true
+    },
+    "imageSelet": {
+        "name": "图片选择器",
+        "type": "imageSelect",
+        "default": "Microsoft Yahei1",
+        "placeholder": "请选择图片",
+        "options": [
+            {
+                "value": "Microsoft Yahei",
+                "name": "微软雅黑",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "SimSun",
+                "name": "宋体",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "SimHei",
+                "name": "黑体",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "LiSu",
+                "name": "隶书",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "YouYuan",
+                "name": "幼圆",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png"
+            }
+        ]
+    },
+    "fill": {
+        "name": "颜色填充",
+        "type": "fill",
+        "default": "rgb(90, 17, 217)"
+    },
+    "suite": {
+        "name": "套件",
+        "type": "suite",
+        "childrens": {
+            "comAlias": {
+                "caption": "名称",
+                "type": "text",
+                "placeholder": "请输入",
+                "col": 11.5
+            },
+            "comSize": {
+                "caption": "大小",
+                "type": "number",
+                "col": 11.5
+            },
+            "comSize1": {
+                "caption": "大小1",
+                "type": "number",
+                "col": 11.5
+            }
+        }
+    },
+    "margin": {
+        "name": "边距组件",
+        "type": "margin",
+        "components": ["left", "right"]
+    },
+    "font": {
+        "name": "字体组件",
+        "type": "font",
+        "components": ["fontFamily", "fontWeight", "color", "fontSize"]
+    },
+    "line": {
+        "name": "线性组件",
+        "type": "line",
+        "components": ["width", "curve", "style", "color"]
+    },
+    "size": {
+        "name": "大小",
+        "type": "size",
+        "default": {
+            "width": 100,
+            "height": 100
+        }
+    }
+}

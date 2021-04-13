@@ -1,0 +1,26 @@
+{
+    "top": {
+        "caption": "顶部",
+        "type": "number",
+        "suffix": "px",
+        "col": 11.5
+    },
+    "bottom": {
+        "caption": "底部",
+        "type": "number",
+        "suffix": "px",
+        "col": 11.5
+    },
+    "left": {
+        "caption": "左侧",
+        "type": "number",
+        "suffix": "px",
+        "col": 11.5
+    },
+    "right": {
+        "caption": "右侧",
+        "type": "number",
+        "suffix": "px",
+        "col": 11.5
+    }
+}

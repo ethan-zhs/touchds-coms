@@ -1,0 +1,10 @@
+{
+    "size": {
+        "name": "大小",
+        "type": "size",
+        "default": {
+            "width": 100,
+            "height": 100
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.field-popover {
+    position: relative;
+    height: 100%;
+    display: flex;
+
+    .field-popover-content {
+        border: 1px solid #2483ff;
+        position: absolute;
+        background: #fff;
+        right: 0;
+        z-index: 1000;
+
+        &.bottom-left {
+            right: 0;
+            top: calc(100% + 7px)
+        }
+
+        &.bottom-right {
+            left: 0;
+            top: calc(100% + 7px)
+        }
+
+        &.top-left {
+            right: 0;
+            bottom: calc(100% + 7px)
+        }
+
+        &.top-right {
+            left: 0;
+            bottom: calc(100% + 7px)
+        }
+    }
+}

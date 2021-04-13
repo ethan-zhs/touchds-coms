@@ -1,0 +1,34 @@
+.field-button-radio {
+    display: flex;
+    width: 100%;
+
+    .field-button-radio-item {
+        border: 1px solid #0b0c0d;
+        transition: background 0.3s;
+        border-left-width: 0;
+        background: #272c32;
+        color: #a1aeb3;
+        font-size: 12px;
+        height: 26px;
+        overflow: hidden;
+        cursor: pointer;
+
+        &:first-child {
+            border-left-width: 1px;
+        }
+
+        &:hover {
+            color: #fff;
+            background: #2483ff;
+        }
+
+        &.field-button-radio-active {
+            color: #fff;
+            background: #2483ff;
+        }
+
+        &.field-button-radio-evenly-split {
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "width": {
+        "caption": "粗细",
+        "type": "number",
+        "suffix": "px",
+        "min": 0,
+        "max": 500,
+        "col": 11.5
+    },
+    "curve": {
+        "caption": "曲线类型",
+        "col": 11.5,
+        "type": "iconRadio",
+        "options": [
+            {
+                "value": "right",
+                "icon": "smooth-line"
+            },
+            {
+                "value": "bottom",
+                "icon": "poly-line"
+            }
+        ]
+    },
+    "style": {
+        "caption": "类型",
+        "suffix": "px",
+        "col": 11.5,
+        "type": "select",
+        "placeholder": "请选择",
+        "showSearch": true,
+        "options": [
+            {
+                "value": "solid",
+                "name": "实线"
+            },
+            {
+                "value": "dashed",
+                "name": "虚线"
+            },
+            {
+                "value": "dotted",
+                "name": "点状线"
+            }
+        ]
+    },
+    "color": {
+        "caption": "颜色",
+        "type": "fill",
+        "col": 11.5
+    }
+}

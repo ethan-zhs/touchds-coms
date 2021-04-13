@@ -1,0 +1,22 @@
+{
+    "radio": {
+        "name": "单选框",
+        "type": "radio",
+        "default": "left",
+        "optionCol": 80,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    }
+}

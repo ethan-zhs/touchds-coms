@@ -1,0 +1,42 @@
+.field-group {
+    font-size: 12px;
+    
+    .field-group-header {
+        color: #fff;
+        padding: 11px 20px 11px 15px;
+        border-bottom: 1px solid #2b2f3a;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .icon-right-gui {
+            font-size: 10px;
+            transform-origin: 50% 50%;
+            transition: transform .2s ease;
+            color: #bcc9d4;
+
+            &:hover {
+                color: #2483ff;
+            }
+        }
+
+        .show {
+            .icon-right-gui {
+                transform: rotate(90deg);
+            }
+        }
+
+        
+    }
+
+    .field-group-panel {
+        overflow: hidden;
+        background: #111417;
+        display: block;    
+        transition: height .3s ease;
+
+        &.hide {
+            height: 0 !important;
+        }   
+    }
+}

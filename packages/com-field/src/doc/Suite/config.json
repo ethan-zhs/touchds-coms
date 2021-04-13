@@ -1,0 +1,24 @@
+{
+    "suite": {
+        "name": "套件",
+        "type": "suite",
+        "childrens": {
+            "comAlias": {
+                "caption": "名称",
+                "type": "text",
+                "placeholder": "请输入",
+                "col": 11.5
+            },
+            "comSize": {
+                "caption": "大小",
+                "type": "number",
+                "col": 11.5
+            },
+            "comSize1": {
+                "caption": "大小1",
+                "type": "number",
+                "col": 11.5
+            }
+        }
+    }
+}

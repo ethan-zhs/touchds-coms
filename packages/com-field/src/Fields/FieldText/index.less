@@ -1,0 +1,60 @@
+@import '../../assets/styles/theme.less';
+
+.field-input {    
+    box-sizing: border-box;
+    background: #262c33;
+    border: 1px solid #0b0c0d;
+    width: 100%;    
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    align-items: center;
+    .theme-box-hover;
+    .input {
+        flex: 1 1 auto;
+        font-size: 12px;
+        color: #ffffff;
+        outline: none;
+        height: 100%;
+        width: 100%;
+        background: none;
+        border: 0;
+        padding: 0 7px;
+        box-shadow: none;
+        border-radius: 0;        
+    }
+
+    .icon-font {
+        color: #a1aeb3;
+        font-size: 10px;
+        cursor: pointer;
+
+        &:hover {
+            color: #2483ff;
+        }
+    }
+
+    .prefix-icon {
+        padding-left: 7px;
+    }
+
+    .suffix-icon {
+        padding-right: 7px;
+    }
+
+    .field-input-prefix,
+    .field-input-suffix {
+        display: flex;
+        align-items: center;
+    }
+
+    .field-input-prefix {
+        color: #a1aeb3;
+        padding-left: 7px;
+    }
+
+    .field-input-suffix {
+        color: #5c6366;
+        padding-right: 7px;
+    }
+}

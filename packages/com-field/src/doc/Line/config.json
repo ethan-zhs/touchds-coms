@@ -1,0 +1,7 @@
+{
+    "line": {
+        "name": "线性组件",
+        "type": "line",
+        "components": ["width", "curve", "style", "color"]
+    }
+}

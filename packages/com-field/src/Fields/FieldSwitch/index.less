@@ -1,0 +1,45 @@
+.field-switch {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+
+    .field-switch-com {
+        height: 18px;
+        width: 40px;
+        border-radius: 18px;
+        border: 1px solid #0b0c0d;
+        background: #272c32;
+        position: relative;
+        transition: background 0.2s;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 100%;
+            width: 14px;
+            height: 14px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: left 0.2s;
+        }
+
+        &::after {
+            display: none;
+        }
+
+        &.field-switch-open {
+            background: #2483ff;
+            &::before {
+                left: calc(100% - 15px);
+            }
+        }
+    }
+
+    .field-switch-text {
+        margin-left: 7px;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "switch": {
+        "name": "开关",
+        "type": "switch",
+        "default": true,
+        "showText": true,
+        "switchText": {
+            "open": "开",
+            "close": "关"
+        }
+    }
+}

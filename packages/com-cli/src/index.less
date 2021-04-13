@@ -1,0 +1,135 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    display: block;
+}
+::-webkit-scrollbar-corner {
+    background: #1c222b;
+}
+::-webkit-scrollbar-thumb {
+    background: #434b55;
+    border: 1px solid #434b55;
+}
+::-webkit-scrollbar-track {
+    background: #1c222b;
+}
+
+input, button, textarea {
+    outline: none;
+    font: 400 13.3333px Arial;
+}
+
+:global {
+    #app {
+        height: 100%;
+    } 
+
+    ::after {
+        display: none;
+    }
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+
+    .left {
+        flex: 1 1 auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background: #2a2f32;
+        overflow: auto;
+
+        .com-box {
+            border: '1px solid #222';
+        }
+    }
+
+    .right {
+        width: 332px;
+        min-width: 332px;
+        box-shadow: -7px 0 5px -5px #333;
+        user-select: none;
+        background: #191c1a;
+        overflow-y: auto;
+        overflow-x: hidden;
+    
+        .card-container {
+            background: #191c1a;
+            height: 100%;
+            :global {                
+                .ant-tabs-bar {
+                    color: #bcc9d4;
+                    background: #13161a;
+                    border: 0;
+                    height: 35px;
+                    width: 100%;
+                    margin: 0;
+    
+                    .ant-tabs-nav-container-scrolling {
+                        padding: 0;
+                    }
+    
+                    .ant-tabs-nav {
+                        width: 100%;
+    
+                        .ant-tabs-tab {
+                            padding: 0;
+                            height: 36px;
+                            width: 25%;
+                            margin: 0;
+                            text-align: center;
+    
+                            &:hover {
+                                color: #bcc9d4;
+                                background: #191c21;
+                            }
+                            .icon-font {
+                                height: 35px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+    
+                                &::before {
+                                    position: relative;
+                                    top: 2px;
+                                }
+                            }
+                        }
+    
+                        .ant-tabs-tab-active {
+                            color: #2483ff;
+                            background: #191c21;
+                        }
+    
+                        .ant-tabs-ink-bar {
+                            top: 0;
+                            background: #2483ff;
+                        }
+                    }
+
+                    
+                }
+
+                .ant-tabs-bottom-content, 
+                .ant-tabs-top-content {
+                    height: calc(100% - 35px);
+                    overflow-x: hidden;
+                    overflow-y: auto;
+                }
+            }
+        }
+    }    
+}

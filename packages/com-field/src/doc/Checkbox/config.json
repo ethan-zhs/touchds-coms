@@ -1,0 +1,44 @@
+{
+    
+    "checkbox": {
+        "name": "复选框",
+        "type": "checkbox",
+        "default": ["left"],
+        "optionCol": 80,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    },
+
+    "checkbox1": {
+        "name": "复选框",
+        "type": "checkbox",
+        "default": ["left"],
+        "optionCol": 100,
+        "options": [
+            {
+                "value": "left",
+                "name": "左对齐"
+            },
+            {
+                "value": "right",
+                "name": "居中对齐"
+            },
+            {
+                "value": "bottom",
+                "name": "右对齐"
+            }
+        ]
+    }
+}

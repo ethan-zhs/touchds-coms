@@ -1,0 +1,96 @@
+.interaction-content {
+    border-top: 1px solid #2b2f3a;
+    
+    &:last-child {
+        border-top: 0;
+    }
+
+    .event-header {
+        height: 40px;
+        color: #fff;
+        font-size: 12px;
+        display: flex;
+        padding: 0 15px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #2b2f3a;
+        cursor: pointer;
+
+        :global {
+            .icon-font {
+                font-size: 10px;
+            }
+
+            .icon-right-gui {
+                transition: transform .2s;
+            }
+        }
+
+        .icon-right-active {
+            transform: rotate(90deg);
+        }
+    }
+
+    .event-fields-box {
+        overflow: hidden;        
+        transition: height .3s;
+
+        .event-fields-mapping {
+            font-size: 12px;
+            width: 100%;
+            color: #bcc9d4;
+            border: 0;
+            background: #111417;
+        
+            .fields-mapping-header-tr, 
+            .fields-mapping-body-tr {
+                height: 40px;
+                padding: 0 10px;
+        
+                > td, 
+                > th {
+                    font-weight: normal;
+                    display: inline-flex;
+                    font-size: 12px;
+                    align-items: center;
+                    padding: 0 6px;
+                    box-sizing: border-box;
+                    height: 40px;
+                    line-height: 17px;
+                    vertical-align: middle;
+        
+                    &:first-child {
+                        padding-left: 15px;
+                    }
+                    &:last-child {
+                        padding-right: 15px;
+                    }
+        
+                    &:nth-child(1) {
+                        width: 40%;
+                    }
+                    &:nth-child(2) {
+                        width: 60%;
+                    }
+                }
+        
+                > td {
+                    .ellipsis {
+                        display: -webkit-box;
+                        word-break: break-word;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+                }            
+            }
+        
+            .fields-mapping-header-tr {
+                border-bottom: 1px solid #2b2f3a;
+            }
+        }
+    }
+
+    
+}

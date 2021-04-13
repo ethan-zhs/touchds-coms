@@ -1,0 +1,20 @@
+{
+    "text": {
+        "name": "普通文本",
+        "type": "text",
+        "default": "测试文本"
+    },
+    "mail": {
+        "name": "邮箱",
+        "type": "text",
+        "prefix": "M:",
+        "suffix": "@qq.com",
+        "default": "839710683"
+    },
+    "version": {
+        "name": "版本",
+        "type": "text",
+        "default": "1.0.0",
+        "isVersion": true
+    }
+}

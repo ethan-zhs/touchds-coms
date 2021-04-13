@@ -1,0 +1,7 @@
+{
+    "margin": {
+        "name": "边距组件",
+        "type": "margin",
+        "components": ["top", "bottom", "left", "right"]
+    }
+}

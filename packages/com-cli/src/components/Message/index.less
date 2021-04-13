@@ -1,0 +1,55 @@
+.message-wrap {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 30px;
+    transform: translateX(-50%);
+
+    .message-content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+        font-size: 14px;
+        height: 100%;
+        border: 1px solid #2483ff; 
+        background: #1b3964;        
+        color: #fff;
+        top: -100%;
+        animation: message-fadein .3s linear 1 normal forwards;
+
+        svg {
+            margin-right: 7px;
+        }
+
+        &.message-error {
+            border: 1px solid #ff6060; 
+            svg {
+                fill: #ff6060;
+            }
+        }
+
+        &.message-success {
+            border: 1px solid #2483ff; 
+            svg {
+                fill: #47c8b3;
+            }
+        }
+
+        @keyframes message-fadein {
+            0% {
+                opacity: 0;
+                top: -100%;
+            }
+        
+            to {
+                opacity: 1;
+                top: 80%;
+            }
+        }
+    }    
+}

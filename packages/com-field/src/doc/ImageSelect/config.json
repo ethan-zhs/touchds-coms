@@ -1,0 +1,35 @@
+{
+    "imageSelet": {
+        "name": "图片选择器",
+        "type": "imageSelect",
+        "default": "Microsoft Yahei1",
+        "placeholder": "请选择图片",
+        "options": [
+            {
+                "value": "Microsoft Yahei",
+                "name": "微软雅黑",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "SimSun",
+                "name": "宋体",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "SimHei",
+                "name": "黑体",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "LiSu",
+                "name": "隶书",
+                "url": "//img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png"
+            },
+            {
+                "value": "YouYuan",
+                "name": "幼圆",
+                "url": "https://www.tangshuang.net/wp-content/themes/tangshuang/img/donate-to-me-grey.png"
+            }
+        ]
+    }
+}

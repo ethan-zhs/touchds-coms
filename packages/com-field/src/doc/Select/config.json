@@ -1,0 +1,31 @@
+{
+    "fontFamily": {
+        "name": "组件类型",
+        "type": "select",
+        "default": "Microsoft Yahei",
+        "placeholder": "请选择字体",
+        "showSearch": true,
+        "options": [
+            {
+                "value": "Microsoft Yahei",
+                "name": "微软雅黑"
+            },
+            {
+                "value": "SimSun",
+                "name": "宋体"
+            },
+            {
+                "value": "SimHei",
+                "name": "黑体"
+            },
+            {
+                "value": "LiSu",
+                "name": "隶书"
+            },
+            {
+                "value": "YouYuan",
+                "name": "幼圆"
+            }
+        ]
+    }
+}

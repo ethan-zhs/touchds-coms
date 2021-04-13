@@ -1,0 +1,111 @@
+{
+    "fontFamily": {
+        "caption": "字体",
+        "suffix": "px",
+        "col": 11.5,
+        "type": "select",
+        "placeholder": "请选择",
+        "showSearch": true,
+        "options": [
+            {
+                "value": "Microsoft Yahei",
+                "name": "微软雅黑"
+            },
+            {
+                "value": "SimSun",
+                "name": "宋体"
+            },
+            {
+                "value": "SimHei",
+                "name": "黑体"
+            },
+            {
+                "value": "LiSu",
+                "name": "隶书"
+            },
+            {
+                "value": "YouYuan",
+                "name": "幼圆"
+            }
+        ]
+    },
+    "fontWeight": {
+        "caption": "文字粗细",
+        "suffix": "px",
+        "col": 11.5,
+        "type": "select",
+        "placeholder": "请选择",
+        "showSearch": true,
+        "options": [
+            {
+                "value": "normal",
+                "name": "normal"
+            },
+            {
+                "value": "bold",
+                "name": "bold"
+            },
+            {
+                "value": "bolder",
+                "name": "bolder"
+            },
+            {
+                "value": "lighter",
+                "name": "lighter"
+            },
+            {
+                "value": "100",
+                "name": "100"
+            },
+            {
+                "value": "200",
+                "name": "200"
+            },
+            {
+                "value": "200",
+                "name": "200"
+            },
+            {
+                "value": "300",
+                "name": "300"
+            },
+            {
+                "value": "400",
+                "name": "400"
+            },
+            {
+                "value": "500",
+                "name": "500"
+            },
+            {
+                "value": "600",
+                "name": "600"
+            },
+            {
+                "value": "700",
+                "name": "700"
+            },
+            {
+                "value": "800",
+                "name": "800"
+            },
+            {
+                "value": "900",
+                "name": "900"
+            }
+        ]
+    },
+    "color": {
+        "caption": "颜色",
+        "type": "fill",
+        "col": 11.5
+    },
+    "fontSize": {
+        "caption": "字号",
+        "type": "number",
+        "suffix": "px",
+        "min": 10,
+        "max": 500,
+        "col": 11.5
+    }
+}

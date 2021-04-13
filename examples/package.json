@@ -1,0 +1,115 @@
+{
+    "name": "touchds-com",
+    "version": "1.0.2",
+    "description": "test111",
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "touchds": {
+        "cnName": "饼图",
+        "type": "regular_pie",
+        "icon": "http://img.alicdn.com/tfs/TB153HnlNn1gK0jSZKPXXXvUXXa-370-208.png",
+        "size": {
+            "width": 400,
+            "height": 400,
+            "minWidth": 100,
+            "minHeight": 53
+        },
+        "config": {
+            "title": {
+                "name": "标题",
+                "type": "text",
+                "default": "asdfghasdasdfffasdas"
+            },
+            "backgroundColor": {
+                "name": "背景颜色",
+                "type": "fill",
+                "default": "rgb(232, 188, 44)"
+            },
+            "backgroundOpacity": {
+                "name": "背景透明度",
+                "type": "number",
+                "default": 1,
+                "showRange": true,
+                "step": 0.05,
+                "range": [
+                    0,
+                    1
+                ]
+            },
+            "font": {
+                "name": "字体",
+                "type": "font",
+                "components": [
+                    "fontFamily",
+                    "fontWeight",
+                    "color",
+                    "fontSize"
+                ],
+                "default": {
+                    "fontFamily": "Microsoft Yahei",
+                    "fontWeight": "normal",
+                    "color": "rgb(150, 48, 48)",
+                    "fontSize": "14"
+                }
+            }
+        },
+        "apis": {
+            "handler": "render",
+            "description": "多维度饼图接口",
+            "fields": {
+                "name": {
+                    "description": "类目",
+                    "type": "string",
+                    "optional": true
+                },
+                "value": {
+                    "description": "值",
+                    "type": "int"
+                }
+            }
+        },
+        "apiData": [
+            {
+                "name": "普货",
+                "value": 56
+            },
+            {
+                "name": "普货",
+                "value": 22
+            },
+            {
+                "name": "泡货",
+                "value": 22
+            },
+            {
+                "name": "设备",
+                "value": 14
+            },
+            {
+                "name": "矿产",
+                "value": 15
+            },
+            {
+                "name": "钢铁",
+                "value": 15
+            }
+        ],
+        "events": {
+            "click-me": {
+                "description": "点击触发事件",
+                "fields": {
+                    "value": {
+                        "description": "点击值"
+                    },
+                    "a": {
+                        "description": "点击值"
+                    }
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "echarts": "^5.0.2"
+    }
+}
